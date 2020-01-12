@@ -165,6 +165,7 @@ class _FluidSliderState extends State<FluidSlider>
 
     _thumbAnimation = CurvedAnimation(
       curve: Curves.bounceOut,
+      reverseCurve: Curves.bounceIn,
       parent: _animationController,
     );
   }
